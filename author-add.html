@@ -7,44 +7,31 @@
 </head>
 <body>
 <header>
-    <h2>MINU LEMMIK AUTORID!</h2>
+    <h2>AUTORI LISAMINE!</h2>
     <br/>
 </header>
 <nav>
     <table class="nav-table">
-    <tr>
-        <th><a href="book-list.html">Raamatud</a></th>
-        <th><a href="book-add.html">Lisa raamat</a></th>
-        <th><a href="author-list.html">Autorid</a></th>
-        <th><a href="author-add.html">Lisa autor</a></th>
-    </tr>
+        <tr>
+            <th><a href="book-list.html">Raamatud</a></th>
+            <th><a href="book-add.html">Lisa raamat</a></th>
+            <th><a href="author-list.html">Autorid</a></th>
+            <th><a href="author-add.html">Lisa autor</a></th>
+        </tr>
     </table>
 </nav>
 <main>
     <table>
-        <tr>
-            <th>Eesnimi</th>
-            <td></td>
-            <th>Perekonna nimi</th>
-            <td></td>
-            <th>Hinne</th>
-            <td></td>
-        </tr>
-        <tr>
-            <td>juhan</td>
-            <td></td>
-            <td>Saar</td>
-            <td></td>
-            <td>★★★★★</td>
-        </tr>
-    <tr>
-        <td>saare</td>
-        <td></td>
-        <td>juhan</td>
-        <td></td>
-        <td>★★★★★</td>
-    </tr>
+        <input type="text" placeholder="Eesnimi"> <br>
+        <input type="text" placeholder="Perekonnanimi"> <br>
+        <label for="hinne">Hinne: </label>
+        <input type="radio" name="1"> 1
+        <input type="radio" name="2"> 2
+        <input type="radio" name="3"> 3
+        <input type="radio" name="4"> 4
+        <input type="radio" name="5"> 5
     </table>
+    <input type="submit" value="Save">
 </main>
 <footer>
     <h5>ICD0007 Minu raamatute hinnagu leht</h5>
